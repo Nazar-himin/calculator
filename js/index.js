@@ -61,3 +61,10 @@ function clearLastNum() {
     const display = document.querySelector('.display');
     display.value = display.value.substring(0, display.value.length - 1);
 }
+
+document.querySelector('.smail').addEventListener('click', smail);
+
+function smail() {
+    const display = document.querySelector('.display');
+    display.value = 'why you so seriously?';
+}
