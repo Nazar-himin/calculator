@@ -45,7 +45,7 @@ document.querySelector('.squarethree').addEventListener('click', squareThree);
 
 function squareThree() {
     const display = document.querySelector('.display');
-    display.value = display.value * 2 * display.value;
+    display.value = display.value ** 3;
 }
 
 document.querySelector('.change').addEventListener('click', change);
